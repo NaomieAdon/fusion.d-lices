@@ -1,0 +1,42 @@
+:root{
+    --jaune:#e7fe13;
+    --rouge:#fe0606;
+    --orange:#ff8605;
+    --blanc:#fff;
+    --noir:#050505;
+}
+.navbar{
+    background-color: var(--orange);
+    color: var(--noir);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.body{
+    font-family: 'Orbitron', sans-serif;
+}
+.main-title{
+    font-family: 'Times New Roman', Times, serif;
+    color:var(--rouge) ;
+    display: flex;
+    justify-content: center;
+}
+.orange-title{
+    color: var(--orange);
+}
+.paragraphe{
+    color: #ff8605;
+}
+.footer {
+  display: flex;              /* Met texte et image sur la même ligne */
+  justify-content: space-between; /* Texte à gauche, image à droite */
+  align-items: center;        /* Centre verticalement */
+  padding: 20px;
+  background-color: #222;     /* Couleur de fond sombre */
+  color: white;               /* Couleur du texte */
+}
+
+.footer img {
+  max-height: 100px;           /* Ajuste la taille de l'image */
+  height: auto;
+}
